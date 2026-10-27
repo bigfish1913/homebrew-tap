@@ -7,17 +7,17 @@
 #   brew tap bigfish1913/tap
 #   brew install rpi
 #
-# Hashes below are for v0.9.4. See packaging/README.md for the refresh procedure.
+# Hashes below are for v0.9.5. See packaging/README.md for the refresh procedure.
 class Rpi < Formula
   desc "Rust-native, library-first coding-agent runtime and terminal CLI"
   homepage "https://rpi.laofu.online/"
-  version "0.9.4"
+  version "0.9.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.4/rpi-v0.9.4-aarch64-apple-darwin.tar.gz"
-      sha256 "eb307dc7c6d2e7781498f7139d048428764c9aceecc47d0f6ea9400e67899e77"
+      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.5/rpi-v0.9.5-aarch64-apple-darwin.tar.gz"
+      sha256 "794f9147140df8a8c3a5dc4d41d05a1d9433de39f572ecd63b20e751f156b8de"
     end
     # Intel macOS prebuilt binaries are installed via scripts/install.sh.
     # This formula currently covers Apple silicon on macOS.
@@ -25,12 +25,12 @@ class Rpi < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.4/rpi-v0.9.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "21ee44d5157f77eddb1b3d9893f421ddc19bf924ba0cb0a0fdc12224fe4bd945"
+      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.5/rpi-v0.9.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4360dc054909465a0daf2430c302e3167faabcf1bb7437369ced6ed5445a2af6"
     end
     on_intel do
-      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.4/rpi-v0.9.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dfd8ae50f58c5b92775433f26500b31c2b2f7607892c30099b599fb2d60dcc35"
+      url "https://github.com/bigfish1913/pi-rust/releases/download/v0.9.5/rpi-v0.9.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3bf1f77a1243bb7ea0f581feabed0f0274f0bf9828fb53a01b49a2d0c076c771"
     end
   end
 
