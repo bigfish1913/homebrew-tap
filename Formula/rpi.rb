@@ -17,7 +17,7 @@ class Rpi < Formula
   on_macos do
     on_arm do
       url "https://github.com/bigfish1913/pi-rust/releases/download/v0.27.1/rpi-v0.27.1-aarch64-apple-darwin.tar.gz"
-      sha256 "634cf38987b1c7445aa8516ecb7d3792637eadfb738d7b53b44157284de1ed43"
+      sha256 "646c8c118751c358a1fb15ac01aa71f4d3d8ba69597de36d599fcb6c0475cfc0"
     end
     # Intel macOS prebuilt binaries are installed via scripts/install.sh.
     # This formula currently covers Apple silicon on macOS.
@@ -26,11 +26,11 @@ class Rpi < Formula
   on_linux do
     on_arm do
       url "https://github.com/bigfish1913/pi-rust/releases/download/v0.27.1/rpi-v0.27.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8624eb572d7d0c1d40c1397ea1b69928cdfe213c305e47ea18dbb06094360d44"
+      sha256 "62772676f61345d77006d9c5a56ad791b70a0e4232e56ca78671e6af2eba98f8"
     end
     on_intel do
       url "https://github.com/bigfish1913/pi-rust/releases/download/v0.27.1/rpi-v0.27.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9d032033c879d78013a73333b668bcd72724aaf216fb17987d1429f0a9a48c77"
+      sha256 "cb0b426445838cce16c38da83b51dc20d8624f1f2d79735ee8aecb8d573432ca"
     end
   end
 
